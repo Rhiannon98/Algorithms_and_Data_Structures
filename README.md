@@ -6,5 +6,6 @@
 4. [Stacks and Queues](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/tree/master/Data-Structures/Stacks-and-Queues)
 5. [Binary Search](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/tree/master/Challenges/BinarySearch)
 6. [Adjacent Product](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/tree/master/Challenges/AdjacentProduct)
-7. [Merge 2 Link Lists]()
+7. [Merge 2 Link Lists](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/tree/master/Data-Structures/Merge2LL)
+
 *.... work in progress .... more to come ....*
