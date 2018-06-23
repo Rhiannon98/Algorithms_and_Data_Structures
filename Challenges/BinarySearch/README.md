@@ -10,5 +10,4 @@
   equal to the search key, or -1 if the element does not exist.
 ​
 ## Solution
-  ![Binary Search]()​
-  *image coming soon*
+![Binary Search](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/blob/master/Assests/BinarySearch.jpg)​
