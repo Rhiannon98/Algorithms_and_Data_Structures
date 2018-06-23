@@ -8,7 +8,7 @@
 1. [Merge 2 Link Lists](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/tree/master/Data-Structures/Merge2LL)
 1. [Stacks and Queues](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/tree/master/Data-Structures/Stacks-and-Queues)
 1. [Implement a Queue using 2 Stacks](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/tree/master/Challenges/ImplementQueueUsing2Stacks)
-1. [First in First Out]()
+1. [First in First Out](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/tree/master/Data-Structures/FirstInFirstOut)
 1. [Multi-Bracket Validation]()
 
 
