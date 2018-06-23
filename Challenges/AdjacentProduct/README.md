@@ -1,4 +1,4 @@
-﻿## [Challenge Name]
+﻿## Adjacent Product
   *what does this challenge do?* 
 ​
 ## Challenge
