@@ -33,7 +33,7 @@ namespace LinkList
             // test addLast
             LL.AddLast(new Node(199));
             LL.Print();
-            Console.WriteLine("Look! We added a node to the end!!")
+            Console.WriteLine("Look! We added a node to the end!!");
         }
     }
 }
