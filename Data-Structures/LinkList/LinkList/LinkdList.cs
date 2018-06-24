@@ -32,7 +32,6 @@ namespace LinkList
 
         public void Add(Node node)
         {
-            Current = Head;
             node.Next = Head;
             Head = node;
             Current = Head;
@@ -105,17 +104,12 @@ namespace LinkList
         public void AddAfter(Node newNode, Node existingNode)
         {
             Current = Head;
-            if (Head.Value == existingNode.Value)
-            {
-                Add(newNode);
-                return;
-            }
-
+          
             while (Current.Next != null)
             {
-                if (Current.Next.Value == existingNode.Value)
+                if (Current.Value == existingNode.Value)
                 {
-                    existingNode.Next = newNode;
+                    newNode.Next = Current.Next;
                     Current.Next = newNode;
                     return;
                 }

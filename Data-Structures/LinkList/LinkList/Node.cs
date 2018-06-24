@@ -20,8 +20,6 @@ namespace LinkList
         public Node(int value)
         {
             Value = value;
-            // setting this to null = default node 
-            Next = null;
         }
     }
 }
