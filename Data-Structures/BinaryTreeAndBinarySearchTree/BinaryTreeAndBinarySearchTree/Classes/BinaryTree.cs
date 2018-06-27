@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BinaryTreeAndBinarySearchTree.Classes
 {
-    class BinaryTree
+    public class BinaryTree
     {
         public Node Root { get; set; }
 
@@ -22,7 +22,9 @@ namespace BinaryTreeAndBinarySearchTree.Classes
         {
             if (node.LeftChild != null){PreOrder(node.LeftChild);}
 
-            if(node.RightChild != null){PreOrder(node.RightChild);}
+            if (node.RightChild != null){PreOrder(node.RightChild);}
+
+            Console.WriteLine(node.Value);
         }
 
         /// <summary>
@@ -32,9 +34,11 @@ namespace BinaryTreeAndBinarySearchTree.Classes
         /// <param name="node">starting node, normally the root</param>
         public void InOrder(Node node)
         {
-            if(node.LeftChild != null){InOrder(node.LeftChild);}
+            if (node.LeftChild != null){InOrder(node.LeftChild);}
 
             if (node.RightChild != null){InOrder(node.RightChild);}
+
+            Console.WriteLine(node.Value);
         }
 
         /// <summary>
@@ -47,11 +51,13 @@ namespace BinaryTreeAndBinarySearchTree.Classes
             if(node.LeftChild != null){PostOrder(node.LeftChild);}
 
             if(node.RightChild != null){PostOrder(node.RightChild);}
+                        
+            Console.WriteLine(node.Value);
         }
 
         /// <summary>
         /// Searches tree using Breadth Approach to find desired value
-        /// Big(O) is O(n) for both Time and Space
+        /// Big(O) is O(n) for both Time
         /// </summary>
         /// <param name="root"></param>
         public void BreadthFirst(Node root)
@@ -61,6 +67,7 @@ namespace BinaryTreeAndBinarySearchTree.Classes
 
             while (breadth.TryPeek(out root)) {
                 Node front = breadth.Dequeue();
+                Console.WriteLine(front.Value);
 
                 if(front.LeftChild != null){breadth.Enqueue(front.LeftChild);}
 
@@ -72,7 +79,7 @@ namespace BinaryTreeAndBinarySearchTree.Classes
         /// <summary>
         /// Traverses the tree starting at the root with a breadth approach
         /// This finds that desired value
-        /// Big(O) is O(n) for both Time and Space
+        /// Big(O) is O(n) for both Time 
         /// </summary>
         /// <param name="root"></param>
         /// <param name="value"></param>
@@ -85,6 +92,7 @@ namespace BinaryTreeAndBinarySearchTree.Classes
             while(breadth.TryPeek(out root))
             {
                 Node front = breadth.Dequeue();
+                Console.WriteLine(front.Value);
 
                 if (front.Value == value) {return front;}
 
@@ -93,6 +101,39 @@ namespace BinaryTreeAndBinarySearchTree.Classes
                 if(front.RightChild != null){breadth.Enqueue(front.RightChild);}
             }
             return null;
+        }
+
+        /// <summary>
+        /// Method traversal through the tree starting at the root
+        /// This method utilizes the breadth approach
+        /// Approach runs until desired value is met
+        /// </summary>
+        /// <param name="node">node wanting to be added</param>
+        /// <param name="root">most "root" node of tree</param>
+        public virtual void Add(Node node, Node root)
+        {
+            Queue<Node> breadth = new Queue<Node>();
+            breadth.Enqueue(root);
+
+            while(breadth.TryPeek(out root))
+            {
+                Node front = breadth.Dequeue();
+                Console.WriteLine(front.Value);
+
+                if(front.LeftChild != null) {breadth.Enqueue(front.LeftChild);}
+                if(front.RightChild != null) {breadth.Enqueue(front.RightChild);}
+
+                if(front.LeftChild == null) 
+                { 
+                    front.LeftChild = node;
+                    return;
+                }
+                else if(front.RightChild == null)
+                {
+                    front.RightChild = node;
+                    return;
+                }
+            }
         }
     }
 }
