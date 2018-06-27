@@ -9,8 +9,6 @@ namespace BinaryTreeAndBinarySearchTree
         // using Eric's as a reference for the invokcation
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
             BinaryTree binaryTree = new BinaryTree(new Node(2));
             binaryTree.Add(new Node(3), binaryTree.Root);
             binaryTree.Add(new Node(5), binaryTree.Root);

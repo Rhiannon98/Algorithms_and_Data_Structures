@@ -92,8 +92,6 @@ namespace BinaryTreeAndBinarySearchTree.Classes
             while(breadth.TryPeek(out root))
             {
                 Node front = breadth.Dequeue();
-                Console.WriteLine(front.Value);
-
                 if (front.Value == value) {return front;}
 
                 if (front.LeftChild != null){breadth.Enqueue(front.LeftChild);}
@@ -118,7 +116,6 @@ namespace BinaryTreeAndBinarySearchTree.Classes
             while(breadth.TryPeek(out root))
             {
                 Node front = breadth.Dequeue();
-                Console.WriteLine(front.Value);
 
                 if(front.LeftChild != null) {breadth.Enqueue(front.LeftChild);}
                 if(front.RightChild != null) {breadth.Enqueue(front.RightChild);}
