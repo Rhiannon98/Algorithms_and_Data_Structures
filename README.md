@@ -12,4 +12,4 @@
 1. [Multi-Bracket Validation]()
 
 
-*.... work in progress ...s. more to come ....*
+*.... work in progress .... more to come ....*
