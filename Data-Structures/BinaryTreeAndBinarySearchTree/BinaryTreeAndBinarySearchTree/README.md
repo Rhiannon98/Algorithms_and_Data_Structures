@@ -10,4 +10,4 @@
   methods as a means of traversal.
 
 ## Solution example
-![BT & BST Img](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/blob/master/Assests/BT.BST.Example.png)
+![BT & BST Img](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/blob/master/Assets/BT.BST.Example.png)

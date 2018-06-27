@@ -8,4 +8,4 @@
   class as well as the methods created in previous challenges. ​   
 
 ## Solution
-![Kth Element From End](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/blob/master/Assests/KthElementFromEnd)
+![Kth Element From End](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/blob/master/Assets/KthElementFromEnd)

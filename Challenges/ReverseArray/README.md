@@ -7,4 +7,4 @@
   built-in methods available to your language, return the provided 
   array argument with elements in reversed order.​
 ## Solution
-![Reverse Array](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/blob/master/Assests/ArrayReverse01)
+![Reverse Array](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/blob/master/Assets/ArrayReverse01)

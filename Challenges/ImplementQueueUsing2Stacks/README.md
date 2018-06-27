@@ -8,4 +8,4 @@
   You have access to 2 Stack instances with push and pop methods.
 ​
 ## Solution
-![Queue From Two Stacks](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/blob/master/Assests/BuildAQueueFrom2Stacks)
+![Queue From Two Stacks](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/blob/master/Assets/BuildAQueueFrom2Stacks)

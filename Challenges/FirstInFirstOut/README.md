@@ -15,4 +15,4 @@
 	  For anything else, return either a cat or a dog.
 ​
 ## Solution
-![First In First Out](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/blob/master/Assests/FirstInFirstOut)
+![First In First Out](https://github.com/Rhiannon98/Algorithms_and_Data_Structures/blob/master/Assets/FirstInFirstOut)
